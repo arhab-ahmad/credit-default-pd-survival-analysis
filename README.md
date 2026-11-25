@@ -77,34 +77,7 @@ Ten-fold, loan-level cross-validation (mean over folds):
 - Variable importance shows how much a model relied on a variable, not the direction or size of its effect.
 - Standard errors for the shared macroeconomic variables may be somewhat optimistic because all loans share the same economic conditions in a given month.
 
-## 7. Repository structure
-
-```
-credit-default-pd-survival-analysis/
-├── README.md
-├── report/
-│   └── Credit_Default_PD_Report.pdf
-├── code/
-│   ├── 01_data_preparation_and_truncation.R
-│   └── 02_models_and_cross_validation.R
-├── images/
-│   └── hazard_by_loan_age.png
-├── data/
-│   └── README.md          (instructions to download the dataset)
-└── .gitignore
-```
-
-## 8. How to run
-
-1. Download the dataset from the source above and save it in `data/`.
-2. Open R or RStudio and install the packages: `install.packages(c("ranger", "gbm", "pROC", "PRROC", "dplyr"))`.
-3. Run `code/01_data_preparation_and_truncation.R`, then `code/02_models_and_cross_validation.R`.
-
-## 9. Tools
+## 7. Tools
 
 R (`glm`, `ranger`, `gbm`), survival analysis (discrete-time hazard models), cross-validation, ROC-AUC / PR-AUC / log-loss.
 
-## 10. Author
-
-**Mohd Arhab Ahmad**: M.Sc. Statistics, Aligarh Muslim University
-[LinkedIn](https://www.linkedin.com/in/arhab-ahmad/) | [GitHub](https://github.com/arhab-ahmad)
