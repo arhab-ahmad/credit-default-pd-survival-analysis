@@ -1,0 +1,11 @@
+# Data
+
+The dataset used in this project is a person-period loan dataset of
+49,982 loans provided by Rösch and Scheule (2020).
+
+It is not included in this repository because it belongs to the original
+authors. Please obtain it from the original source (the textbook's
+companion data or the authors' website) and save it in this folder
+as `loan_data.csv` before running the code.
+
+The R scripts in the `code/` folder expect the file at `data/loan_data.csv`.
